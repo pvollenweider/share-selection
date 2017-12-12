@@ -1,7 +1,7 @@
 <jmix = 'http://www.jahia.org/jahia/mix/1.0'>
 <jnt = 'http://www.jahia.org/jahia/nt/1.0'>
 
-[jnt:shareSelection] > jnt:component, jmix:siteComponent, jmix:bindedComponent
+[jnt:shareSelection] > jnt:content, jmix:socialComponent, jmix:bindedComponent
  - services (string, choicelist) multiple < 'twitter','buffer','reddit','stumbleupon','tumblr','digg','linkedin','facebook'
  - tooltipClass (string)
  - twitterUsername (string)
