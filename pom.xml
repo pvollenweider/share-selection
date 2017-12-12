@@ -53,7 +53,7 @@
   </parent>
   <groupId>org.jahia.modules</groupId>
   <artifactId>share-selection</artifactId>
-  <version>1.1-SNAPSHOT</version>
+  <version>1.1</version>
   <packaging>bundle</packaging>
   <name>Share Selection</name>
   <description>This is the custom module (Share Selection) for running on a Digital Experience Manager server.</description>
@@ -61,7 +61,7 @@
     <connection>scm:git:git@github.com:pvollenweider/share-selection.git</connection>
     <developerConnection>scm:git:git@github.com:pvollenweider/share-selection.git</developerConnection>
     <url>https://github.com/pvollenweider/share-selection</url>
-    <tag>HEAD</tag>
+    <tag>share-selection-1.1</tag>
   </scm>
   <properties>
     <jahia-depends>default,font-awesome,jquery</jahia-depends>
