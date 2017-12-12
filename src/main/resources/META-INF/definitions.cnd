@@ -1,0 +1,9 @@
+<jmix = 'http://www.jahia.org/jahia/mix/1.0'>
+<jnt = 'http://www.jahia.org/jahia/nt/1.0'>
+
+[jnt:shareSelection] > jnt:component, jmix:siteComponent, jmix:bindedComponent
+ - services (string, choicelist) multiple < 'twitter','buffer','reddit','stumbleupon','tumblr','digg','linkedin','facebook'
+ - tooltipClass (string)
+ - twitterUsername (string)
+ - facebookAppID (string)
+ - facebookDisplayMode (string, choicelist) = 'popup' < 'popup','page'
