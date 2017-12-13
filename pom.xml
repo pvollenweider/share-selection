@@ -64,7 +64,7 @@
     <tag>HEAD</tag>
   </scm>
   <properties>
-    <jahia-depends>default,font-awesome,jquery</jahia-depends>
+    <jahia-depends>default,jquery</jahia-depends>
   </properties>
   <repositories>
     <repository>
