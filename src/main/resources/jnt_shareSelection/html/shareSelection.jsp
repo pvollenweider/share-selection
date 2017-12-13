@@ -17,7 +17,7 @@
 <%--@elvariable id="renderContext" type="org.jahia.services.render.RenderContext"--%>
 <%--@elvariable id="currentResource" type="org.jahia.services.render.Resource"--%>
 <%--@elvariable id="url" type="org.jahia.services.render.URLGenerator"--%>
-<template:addResources type="css" resources="font-awesome.min.css,shareSelectedText.css"/>
+<template:addResources type="css" resources="shareSelectedText.css"/>
 <template:addResources type="javascript" resources="jquery.min.js,shareSelectedText.js"/>
 <template:addResources type="inline">
 
