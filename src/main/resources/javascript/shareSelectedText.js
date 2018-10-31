@@ -193,7 +193,7 @@
         if (customIconClass) {
             anchorIcon.classList.add('' + customIconClass);
         } else {
-            anchorIcon.classList.add('icon-sst-' + anchorType, 'fa', 'fa-' + anchorType);
+            anchorIcon.classList.add('icon-sst-' + anchorType, 'fab', 'fa-' + anchorType);
         }
 
         anchorIcon.style.pointerEvents = 'none';
