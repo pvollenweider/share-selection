@@ -203,6 +203,7 @@
             var url = e.target.href;
             window.open(url, 'Share this post', windowFeatures);
         });
+        anchorTag.setAttribute('aria-label','Share with ' + anchorType);
 
         anchorTag.href = generateSocialUrl(anchorType, selected.text ? selected.text : '');
         anchorTag.appendChild(anchorIcon);
